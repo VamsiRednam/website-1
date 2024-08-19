@@ -12,7 +12,18 @@ body {
     height: 100%;
     overflow-x: hidden;
 }
+header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+    background-color: #ffffff;
+    transition: 0.9s;
+}
 
+header .navbar {
+    height: 100%;
+}
 .carousel .carousel-indicators {
     list-style-type: none;
 }
@@ -132,4 +143,21 @@ body {
     .sec-1 .carousel .fs-5{
         font-size: 14px;
     }
+    .sec-7 .arrow{
+        display: none;
+    }
+    .carousel{
+        width: 100%;
+    }
+    .sec-1,.hh-1 {
+        display: none;
+    }
+    .ico .bi{
+        font-size: 16px;
+
+    }
+    .ico .h5{
+        font-size: 16px;
+    }
+    
 }
